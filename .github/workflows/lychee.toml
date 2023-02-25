@@ -1,7 +1,7 @@
 ####   Display   ###############################
 
 # Include more detail for troubleshoot
-verbose = true
+verbose = 2
 
 # Do not show progress bar in GH Action
 progress = false
@@ -26,4 +26,4 @@ exclude_all_private = true
 exclude_mail = true
 
 # Exclude URLs contained in a file from checking
-exclude_file = [ ".github/workflows/.lycheeignore" ]
+exclude_file = [".github/workflows/.lycheeignore"]
